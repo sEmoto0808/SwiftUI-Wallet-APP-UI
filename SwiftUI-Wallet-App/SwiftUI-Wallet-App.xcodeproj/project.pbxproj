@@ -13,6 +13,7 @@
 		9AA9C4BC27CBA06B00854B24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA9C4AA27CBA06A00854B24 /* ContentView.swift */; };
 		9AA9C4BD27CBA06B00854B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA9C4AB27CBA06B00854B24 /* Assets.xcassets */; };
 		9AA9C4BE27CBA06B00854B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA9C4AB27CBA06B00854B24 /* Assets.xcassets */; };
+		9AA9C4C927CBA17000854B24 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA9C4C827CBA17000854B24 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9AA9C4B027CBA06B00854B24 /* SwiftUI-Wallet-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Wallet-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA9C4B627CBA06B00854B24 /* SwiftUI-Wallet-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Wallet-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA9C4B827CBA06B00854B24 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		9AA9C4C827CBA17000854B24 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		9AA9C4A827CBA06A00854B24 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				9AA9C4C727CBA16000854B24 /* Model */,
 				9AA9C4A927CBA06A00854B24 /* SwiftUI_Wallet_AppApp.swift */,
 				9AA9C4AA27CBA06A00854B24 /* ContentView.swift */,
 				9AA9C4AB27CBA06B00854B24 /* Assets.xcassets */,
@@ -76,6 +79,14 @@
 				9AA9C4B827CBA06B00854B24 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		9AA9C4C727CBA16000854B24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9AA9C4C827CBA17000854B24 /* Card.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AA9C4BB27CBA06B00854B24 /* ContentView.swift in Sources */,
+				9AA9C4C927CBA17000854B24 /* Card.swift in Sources */,
 				9AA9C4B927CBA06B00854B24 /* SwiftUI_Wallet_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
